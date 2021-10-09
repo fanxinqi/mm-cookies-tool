@@ -56,15 +56,23 @@ function copyCookie(copyDomainReg, postDomin, postPort) {
 // window.onload = cookieinfo;
 
 function main() {
+  const COPY_DOMAIN_STORAGE_KEY = 'maimai_cookies_tool_copy_domain_input_value';
+  const POST_DOMAIN_STORAGE_KEY = 'maimai_cookies_tool_post_domain_input_value';
+  const copyDomainValue = localStorage.getItem(COPY_DOMAIN_STORAGE_KEY) || 'maimai\\.cn$';
+  const postDomainValue = localStorage.getItem(POST_DOMAIN_STORAGE_KEY) || '127.0.0.1:3033';
   const copyButton = document.querySelector("#copy_button");
   const copyDomainRegInput = document.querySelector("#copy_domain_reg");
   const postDomainPortInput = document.querySelector("#post_domain_port");
+  copyDomainRegInput.value = copyDomainValue;
+  postDomainPortInput.value = postDomainValue;
   copyButton.onclick = function () {
     let copyDomainReg = new RegExp(copyDomainRegInput.value);
     let postDomainPort = postDomainPortInput.value;
     let splitDomainPort = postDomainPort.split(":");
     let postDomin = splitDomainPort[0];
     let postPort = splitDomainPort[1];
+    localStorage.setItem(COPY_DOMAIN_STORAGE_KEY, copyDomainRegInput.value);
+    localStorage.setItem(POST_DOMAIN_STORAGE_KEY, postDomainPortInput.value);
     copyCookie(copyDomainReg, postDomin, postPort);
   };
 }
