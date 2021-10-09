@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./scripts/popup.js"></script>
+    <style>
+      .pop-up {
+        display: flex;
+      }
+      .row {
+        display: flex;
+      }
+      .row input {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #8593b3;
+        color: #8593b3;
+        border-radius: 4px;
+        text-indent: 10px;
+      }
+
+      .row input:hover {
+        border: 1px solid #0052ff;
+        color: #0052ff;
+      }
+      input:focus,
+      textarea:focus {
+        outline: none;
+        border: 1px solid #0052ff;
+      }
+      .row span {
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        width: 80px;
+        text-align: right;
+        margin-right: 20px;
+        color: #8593b3;
+        font-weight: bold;
+      }
+      #copy_button {
+        border-radius: 4px;
+        width: 100px;
+        margin-left: 20px;
+        border: 1px solid #8593b3;
+        color: #8593b3;
+        background: #fff;
+      }
+      #copy_button:hover {
+        border: 1px solid #0052ff;
+        color: #0052ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pop-up">
+      <div class="row">
+        <span>copy domain</span>
+        <input
+          id="copy_domain_reg"
+          type="text"
+          placeholder="正则表达式，比如/maimai\.cn$/"
+          value="maimai\.cn$"
+        />
+      </div>
+      <div class="row">
+        <span>目标域名</span>
+        <input
+          id="post_domain_port"
+          type="text"
+          placeholder="域名&端口，端口不是必填"
+          value="127.0.0.1:3033"
+        />
+      </div>
+      <button id="copy_button">确定</button>
+    </div>
+  </body>
+</html>

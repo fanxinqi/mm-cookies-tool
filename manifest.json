@@ -1,0 +1,23 @@
+{
+    "browser_action": {
+        "default_icon": "/static/image/maimai-logo.png",
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "48": "/static/image/maimai-logo.png"
+    },
+    "description": "脉脉cookies同步工具：开发过程中，可以使用该一键登陆自己的测试环境，支持自定义配置",
+    "manifest_version": 2,
+    "name": "脉脉cookies同步工具",
+    "permissions": [
+        "webRequest",
+        "notifications",
+        "cookies",
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "http://www.zaful.com/",
+        "<all_urls>"
+    ],
+    "version": "1.1.0"
+}
