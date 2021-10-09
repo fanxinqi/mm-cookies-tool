@@ -8,3 +8,7 @@ chrome浏览器输入：chrome://extensions/,  同时打开右上角开发者模
 二、加载插件代码
 选择已解压的扩展程序，选择代码目录确定如下图
 
+
+插件使用
+![image](https://user-images.githubusercontent.com/16263427/136652050-59bde43c-2443-4ab3-8336-61cf88df2b5b.png)
+
