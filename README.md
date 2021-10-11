@@ -8,14 +8,12 @@
 3、在不打开目标页面情况下也可以同步cookie
 
 ## 插件使用
-![image](https://user-images.githubusercontent.com/16263427/136769728-17fdd010-71a5-4952-af54-1407e5d544bc.png)
 - copy domain：匹配要copy站点cookie的域名，支持正则
 - 目标域名：匹配要同步post的域名端口
 - 确定：确定同步cookie
 
 ## 插件安装
 ![image](https://user-images.githubusercontent.com/16263427/136767769-9bb798fd-2e5e-42c2-80f4-069916d64afd.png)
-
 1、打开插面板
 chrome浏览器输入：chrome://extensions/,  同时打开右上角开发者模式
 ![image](https://user-images.githubusercontent.com/16263427/136768552-277193e1-5034-4797-8759-d50c2251a1f2.png)
