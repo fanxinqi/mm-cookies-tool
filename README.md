@@ -18,6 +18,6 @@
 ``` chrome浏览器输入：chrome://extensions/,  同时打开右上角开发者模式 ```
 ![image](https://user-images.githubusercontent.com/16263427/136768552-277193e1-5034-4797-8759-d50c2251a1f2.png)
 
-2、加载插件代码
-选择已解压的扩展程序，选择代码目录确定如下图
+- 2、加载插件代码
+``` 选择已解压的扩展程序，选择代码目录确定如下图 ``` 
 ![image](https://user-images.githubusercontent.com/16263427/136768675-82f9a4fd-b7bd-48d9-9c50-2c28c1783a08.png)
