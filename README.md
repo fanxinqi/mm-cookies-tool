@@ -3,9 +3,9 @@
 ![image](https://user-images.githubusercontent.com/16263427/136769702-4d926c87-d5f5-429c-a9d5-670908a127f9.png)
 
 开发过程中，可以使用该一键同步cookie, 方便登陆自己的测试环境等同步cookie的需求
-1、一键copy cookie到目标站点，并统一修改domain 
-2、支持定义配置，同时配置支持记忆功能
-3、在不打开目标页面情况下也可以同步cookie
+- 1、一键copy cookie到目标站点，并统一修改domain 
+- 2、支持定义配置，同时配置支持记忆功能
+- 3、在不打开目标页面情况下也可以同步cookie
 
 ## 插件使用
 - copy domain：匹配要copy站点cookie的域名，支持正则
