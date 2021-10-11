@@ -14,8 +14,8 @@
 
 ## 插件安装
 ![image](https://user-images.githubusercontent.com/16263427/136767769-9bb798fd-2e5e-42c2-80f4-069916d64afd.png)
-1、打开插面板
-chrome浏览器输入：chrome://extensions/,  同时打开右上角开发者模式
+- 1、打开插面板
+``` chrome浏览器输入：chrome://extensions/,  同时打开右上角开发者模式 ```
 ![image](https://user-images.githubusercontent.com/16263427/136768552-277193e1-5034-4797-8759-d50c2251a1f2.png)
 
 2、加载插件代码
