@@ -1,4 +1,4 @@
-# maimai-cookies-tool
+# mm-cookies-tool
 脉脉cookies同步工具，chrome插件：
 ![image](https://user-images.githubusercontent.com/16263427/136769702-4d926c87-d5f5-429c-a9d5-670908a127f9.png)
 
